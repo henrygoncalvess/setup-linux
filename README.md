@@ -90,5 +90,5 @@ overview:
 - [x] background blur
 - [x] customize properties  
 sigma: 10  
-brightness: 1.00
-ovweview components style: do not style
+brightness: 1.00  
+overview components style: do not style
