@@ -32,8 +32,38 @@
   - select the reserved space for Zorin OS and select the option to use as a btrfs journaling filesystem  
     (type for new partition: primary, location for new partition: start, mounting point: /)
   - select zorin OS partition and click "install now"
+ 
 
-extentions - extention manager:  
+#### gtk themes installation (need git)
+
+WhiteSur-gtk-theme installation:
+
+`~/.themes/`
+```bash
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+```
+
+`~/.themes/WhiteSur-gtk-theme/`
+```bash
+./install.sh -o normal -c dark -a normal -t blue -s nord -f --shell -i ubuntu -h smaller
+```
+
+cursors installation:
+
+1. Download a third-party theme cursor on [gnome look](https://www.gnome-look.org/browse?cat=107&ord=rating)
+
+2. Launch the Files app and open the “Downloads” folder
+
+3. Right-click on the downloaded theme file and select “Extract Here”
+
+4. Move the extracted folder to `~/.icons/`
+
+#### gtk themes configuration
+
+Set `WhiteSur-gtk-theme` and your `cursor` in `Zorin Appearance` app > `Theme` > `Other` > `Cursor/Applications`
+
+#### extentions - extention manager:
+
 Blur my Shell  
 Dash2Dock Animated  
 Forge
