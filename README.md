@@ -82,3 +82,13 @@ window shorcuts:
 | Toggle split container | `<Super>g` |
 | Window toggle always float | `<Super>f` |
 | Window snap center | `<Super>c` |
+
+#### Blur my Shell configuration:
+
+overview:
+
+- [x] background blur
+- [x] customize properties  
+sigma: 10  
+brightness: 1.00
+ovweview components style: do not style
