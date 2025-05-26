@@ -45,7 +45,7 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 
 `~/.themes/WhiteSur-gtk-theme/`
 ```bash
-./install.sh -o normal -c dark -a normal -t blue -s nord -f --shell -i ubuntu -h smaller
+./install.sh -o normal -c dark -t blue -s nord -m -HD --shell -i zorin -h smaller -sf --round
 ```
 
 cursors installation:
